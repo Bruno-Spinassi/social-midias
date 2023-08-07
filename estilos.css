@@ -10,25 +10,30 @@ html,body {
 
 }
 
-body {background-image: url(pacote-social-midia/imagens/fundosite.jpeg);
+body {background-image: url(pacote-social-midia/imagens/fsite.jpeg);
       background-size: cover;
       background-attachment: fixed;
 
 }
 
 main {
-    width: 100vw;
     height: 100vh;
-    position: relative;
-    
+    position: relative;   
 }
 
 section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
     height: 627px;
     width: 311px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     background-image: url(pacote-social-midia/imagens/frame-iphone.png);
+    background-attachment: fixed;
+    
+   
+
+    
 }
