@@ -26,14 +26,20 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    
     height: 600px;
     width: 298px;
     background-image: url(pacote-social-midia/imagens/frame-iphone.png);
-    background-attachment: fixed;
-    
-   
-
-    
 }
+    
+    
+    iframe#tela { position: relative;
+                  top: 78px;
+                  left:22px; 
+                  width: 254px;
+                  height: 450px;
+                 }
+    
+    section#rds { padding-left: 85%; padding-top: 185px;}  
+
+    section#rds > a { color: rgb(207, 8, 8);  
+    }            
